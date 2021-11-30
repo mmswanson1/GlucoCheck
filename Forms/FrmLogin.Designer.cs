@@ -43,19 +43,19 @@ namespace GlucoCheck.Forms
             // 
             // UsernameTextbox
             // 
-            this.UsernameTextbox.Location = new System.Drawing.Point(313, 135);
+            this.UsernameTextbox.Location = new System.Drawing.Point(352, 169);
             this.UsernameTextbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UsernameTextbox.Name = "UsernameTextbox";
-            this.UsernameTextbox.Size = new System.Drawing.Size(159, 22);
+            this.UsernameTextbox.Size = new System.Drawing.Size(178, 26);
             this.UsernameTextbox.TabIndex = 0;
             this.UsernameTextbox.TextChanged += new System.EventHandler(this.UsernameTextbox_TextChanged);
             // 
             // PasswordTextbox
             // 
-            this.PasswordTextbox.Location = new System.Drawing.Point(313, 183);
+            this.PasswordTextbox.Location = new System.Drawing.Point(352, 229);
             this.PasswordTextbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.PasswordTextbox.Name = "PasswordTextbox";
-            this.PasswordTextbox.Size = new System.Drawing.Size(159, 22);
+            this.PasswordTextbox.Size = new System.Drawing.Size(178, 26);
             this.PasswordTextbox.TabIndex = 1;
             this.PasswordTextbox.UseSystemPasswordChar = true;
             this.PasswordTextbox.TextChanged += new System.EventHandler(this.PasswordTextbox_TextChanged);
@@ -63,27 +63,27 @@ namespace GlucoCheck.Forms
             // UsernameLabel
             // 
             this.UsernameLabel.AutoSize = true;
-            this.UsernameLabel.Location = new System.Drawing.Point(231, 137);
+            this.UsernameLabel.Location = new System.Drawing.Point(260, 171);
             this.UsernameLabel.Name = "UsernameLabel";
-            this.UsernameLabel.Size = new System.Drawing.Size(77, 17);
+            this.UsernameLabel.Size = new System.Drawing.Size(87, 20);
             this.UsernameLabel.TabIndex = 2;
             this.UsernameLabel.Text = "Username:";
             // 
             // PasswordLabel
             // 
             this.PasswordLabel.AutoSize = true;
-            this.PasswordLabel.Location = new System.Drawing.Point(231, 185);
+            this.PasswordLabel.Location = new System.Drawing.Point(260, 231);
             this.PasswordLabel.Name = "PasswordLabel";
-            this.PasswordLabel.Size = new System.Drawing.Size(73, 17);
+            this.PasswordLabel.Size = new System.Drawing.Size(82, 20);
             this.PasswordLabel.TabIndex = 3;
             this.PasswordLabel.Text = "Password:";
             // 
             // LoginButton
             // 
-            this.LoginButton.Location = new System.Drawing.Point(214, 312);
+            this.LoginButton.Location = new System.Drawing.Point(241, 390);
             this.LoginButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LoginButton.Name = "LoginButton";
-            this.LoginButton.Size = new System.Drawing.Size(131, 38);
+            this.LoginButton.Size = new System.Drawing.Size(147, 48);
             this.LoginButton.TabIndex = 4;
             this.LoginButton.Text = "Login";
             this.LoginButton.UseVisualStyleBackColor = true;
@@ -91,10 +91,10 @@ namespace GlucoCheck.Forms
             // 
             // RegisterButton
             // 
-            this.RegisterButton.Location = new System.Drawing.Point(363, 312);
+            this.RegisterButton.Location = new System.Drawing.Point(408, 390);
             this.RegisterButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.RegisterButton.Name = "RegisterButton";
-            this.RegisterButton.Size = new System.Drawing.Size(133, 38);
+            this.RegisterButton.Size = new System.Drawing.Size(150, 48);
             this.RegisterButton.TabIndex = 5;
             this.RegisterButton.Text = "Register";
             this.RegisterButton.UseVisualStyleBackColor = true;
@@ -104,9 +104,9 @@ namespace GlucoCheck.Forms
             // 
             this.ErrorLabel.AutoSize = true;
             this.ErrorLabel.ForeColor = System.Drawing.Color.Red;
-            this.ErrorLabel.Location = new System.Drawing.Point(240, 264);
+            this.ErrorLabel.Location = new System.Drawing.Point(270, 330);
             this.ErrorLabel.Name = "ErrorLabel";
-            this.ErrorLabel.Size = new System.Drawing.Size(231, 17);
+            this.ErrorLabel.Size = new System.Drawing.Size(257, 20);
             this.ErrorLabel.TabIndex = 6;
             this.ErrorLabel.Text = "Username or password is incorrect.";
             this.ErrorLabel.Visible = false;
@@ -115,9 +115,9 @@ namespace GlucoCheck.Forms
             // 
             this.UserExistsErrorLabel.AutoSize = true;
             this.UserExistsErrorLabel.ForeColor = System.Drawing.Color.Red;
-            this.UserExistsErrorLabel.Location = new System.Drawing.Point(240, 281);
+            this.UserExistsErrorLabel.Location = new System.Drawing.Point(270, 351);
             this.UserExistsErrorLabel.Name = "UserExistsErrorLabel";
-            this.UserExistsErrorLabel.Size = new System.Drawing.Size(221, 17);
+            this.UserExistsErrorLabel.Size = new System.Drawing.Size(243, 20);
             this.UserExistsErrorLabel.TabIndex = 7;
             this.UserExistsErrorLabel.Text = "User already exists. Please log in.";
             this.UserExistsErrorLabel.Visible = false;
@@ -126,28 +126,28 @@ namespace GlucoCheck.Forms
             // 
             this.TitleLabel.AutoSize = true;
             this.TitleLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.TitleLabel.Location = new System.Drawing.Point(219, 54);
+            this.TitleLabel.Location = new System.Drawing.Point(246, 68);
             this.TitleLabel.Name = "TitleLabel";
-            this.TitleLabel.Size = new System.Drawing.Size(248, 48);
+            this.TitleLabel.Size = new System.Drawing.Size(298, 58);
             this.TitleLabel.TabIndex = 8;
             this.TitleLabel.Text = "GlucoCheck";
             // 
             // cBoxRemember
             // 
             this.cBoxRemember.AutoSize = true;
-            this.cBoxRemember.Location = new System.Drawing.Point(288, 224);
-            this.cBoxRemember.Margin = new System.Windows.Forms.Padding(4);
+            this.cBoxRemember.Location = new System.Drawing.Point(322, 271);
+            this.cBoxRemember.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cBoxRemember.Name = "cBoxRemember";
-            this.cBoxRemember.Size = new System.Drawing.Size(127, 21);
+            this.cBoxRemember.Size = new System.Drawing.Size(157, 24);
             this.cBoxRemember.TabIndex = 9;
-            this.cBoxRemember.Text = "Remeber Login";
+            this.cBoxRemember.Text = "Remember Login";
             this.cBoxRemember.UseVisualStyleBackColor = true;
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(701, 382);
+            this.ClientSize = new System.Drawing.Size(789, 478);
             this.Controls.Add(this.cBoxRemember);
             this.Controls.Add(this.TitleLabel);
             this.Controls.Add(this.UserExistsErrorLabel);
